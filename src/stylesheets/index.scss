@@ -1,6 +1,10 @@
+$body-color: red;
+$text-styling: center;
+
+body {
+  color: $body-color;
+}
+
 .center {
-    text-align: center;
-    margin: auto;
-    background-color: azure;
-    width:50%;
-  }
+  text-align:$text-styling;
+}

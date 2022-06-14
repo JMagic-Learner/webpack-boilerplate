@@ -13,7 +13,8 @@
     "sass": "sass src/stylesheets/index.scss dist/stylesheets/index.css",
     "watch-sass": "sass --watch input.scss output.css",
     "format": "npx prettier --write",
-    "check-syntax": "npx eslint src/index.js"
+    "check-syntax-src": "eslint src",
+    "check-syntax-all": "eslint ./**"
   },
   "keywords": [],
   "author": "",
