@@ -10,6 +10,7 @@ module.exports = {
   },
   module: {
     rules: [
+      // BABEL-LOADER
       {
         test: /\.m?js$/,
         exclude: /node_modules/,
@@ -20,6 +21,7 @@ module.exports = {
           },
         },
       },
+      // SASS-LOADER
       {
         test: /\.s[ac]ss$/i,
         use: [

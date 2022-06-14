@@ -8,9 +8,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "step1-babel": "babel src -d lib",
     "step2-webpack": "webpack --config webpack.config.js",
-    "build-HTML": "npm run step1-babel && npm run step2-webpack",
+    "build-HTML": "npm run step1-babel && npm run step2-webpack", 
     "full-build": "npm run step2-webpack && npm run sass",
-    "sass": "sass src/source/stylesheets/index.scss dist/stylesheets/index.css",
+    "sass": "sass src/stylesheets/index.scss dist/stylesheets/index.css",
     "watch-sass": "sass --watch input.scss output.css",
     "format": "npx prettier --write",
     "check-syntax": "npx eslint src/index.js"
