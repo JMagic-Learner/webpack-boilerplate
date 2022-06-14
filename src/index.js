@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import Button from "./components/Button/Button";
 import Explanation from "./components/Explanation/Explanation";
-import "./stylesheets/index.scss";
+import "./stylesheets/index.css";
 
 class HelloMessage extends React.Component {
   constructor(props){
