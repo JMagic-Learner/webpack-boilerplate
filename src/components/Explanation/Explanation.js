@@ -7,7 +7,7 @@ class Explanation extends React.Component {
       HTMLarray: [
         {
           title: "Step 1 - Create JSX Components ",
-          description: "Write sample JSX components in a file called src",
+          description: "Write sample JSX components in a folder called src",
         },
         {
           title:
